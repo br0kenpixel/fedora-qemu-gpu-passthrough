@@ -27,4 +27,4 @@ ccp                   180224  1 kvm_amd
 ```
 > You should have something similar.
 
-#### Done, continue with the [next part](VIRTUALIZATION_SETUP.md)!
+#### Done, continue with the [next part](WINDOWS_SETUP.md)!
