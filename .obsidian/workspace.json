@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "01c25fd70f80577f",
+        "id": "0f46a394566748e9",
         "type": "tabs",
         "children": [
           {
-            "id": "e00f3ed5f2e14de5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WINDOWS_SETUP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e5398bdb7b2714e",
+            "id": "9935444873e31156",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,31 +20,18 @@
             }
           },
           {
-            "id": "5bdfa9b54bc90b55",
+            "id": "82812d131c66d230",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a02da2ab31b43fcd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VIRTUALIZATION_SETUP.md",
+                "file": "IOMMU_GROUPS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,12 +167,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e5398bdb7b2714e",
+  "active": "9935444873e31156",
   "lastOpenFiles": [
-    "WINDOWS_SETUP.md",
-    "VIRTUALIZATION_SETUP.md",
+    "NVIDIA_DRIVERS.md",
     "README.md",
+    "VIRTUALIZATION_SETUP.md",
     "KERNEL_SETUP.md",
+    "IOMMU_GROUPS.md",
+    "WINDOWS_SETUP.md",
     "Images/devices_preview.png",
     "Images/selecting_dgpu.png",
     "Images",
