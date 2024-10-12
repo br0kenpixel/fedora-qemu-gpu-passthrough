@@ -1,7 +1,7 @@
 # Installing NVIDIA Drivers
 > This guide is based on [How to Set Nvidia as Primary GPU on Optimus-based Laptops](https://docs.fedoraproject.org/en-US/quick-docs/set-nvidia-as-primary-gpu-on-optimus-based-laptops/) by Fedora Project.
 
-Fedora currently has a new and old guide to do this. However I find the older one better, so we'll follow that. Also note that this guide is for KDE Plasma, but on GNOME, the process is pretty much the same.
+Fedora currently has a new and old guide to do this. However I find the older one better, so we'll follow that. Also note that this guide is for KDE Plasma, but on GNOME, the process is pretty much the same. **This guide does not involve setting the dGPU as primary GPU, as mentioned in the guide linked above!** We just want to install a driver, nothing else.
 #### Enable the NVIDIA driver repo
 1. Open Konsole/Terminal.
 2. Run `sudo dnf upgrade`. Make sure to update everything before continuing.
@@ -28,5 +28,8 @@ Run the following two commands to make sure that the driver is compiled and read
 sudo akmods --force
 sudo dracut --force
 ```
+
+#### Note
+If you followed the guide linked above, **DO NOT perform Step #8 and later!** This guide is for X11, not Wayland. These steps are unnecessary anyway.
 
 #### Done, go back to the [README](README.md)!
