@@ -54,19 +54,19 @@ You can see that I already have 4 boot options. 3 different kernels and a rescue
 To duplicate the latest kernel option, run the following command. You can name the option whatever you want, I'll just add a `[KVM GPU Passthrough]` suffix at the end.
 ```sh
 sudo grubby \
-	--grub2 \
-	--add-kernel=/boot/vmlinuz-6.10.12-200.fc40.x86_64 \
-	--title="Fedora Linux (6.10.12-200.fc40.x86_64) 40 (KDE Plasma) [KVM GPU Passthrough]" \
-	--initrd=/boot/initramfs-6.10.12-200.fc40.x86_64.img \
-	--copy-default
+  --grub2 \
+  --add-kernel=/boot/vmlinuz-6.10.12-200.fc40.x86_64 \
+  --title="Fedora Linux (6.10.12-200.fc40.x86_64) 40 (KDE Plasma) [KVM GPU Passthrough]" \
+  --initrd=/boot/initramfs-6.10.12-200.fc40.x86_64.img \
+  --copy-default
 ```
 
 Once this is done, this new option should have index 0 and will be set as the default boot option. Now we'll add the necessary kernel arguments.
 
 ```sh
 sudo grubby \
-	--update-kernel=0 \
-	--args="rd.driver.blacklist=nouveau,nvidia,nvidiafb,nvidia-gpu modprobe.blacklist=nouveau,nvidia,nvidiafb,nvidia-gpu"
+  --update-kernel=0 \
+  --args="rd.driver.blacklist=nouveau,nvidia,nvidiafb,nvidia-gpu modprobe.blacklist=nouveau,nvidia,nvidiafb,nvidia-gpu"
 ```
 
 This will add the following 2 kernel arguments:
@@ -97,8 +97,8 @@ We'll add the following arguments:
 Let's add them:
 ```sh
 sudo grubby \
-	--update-kernel=0 \
-	--args="video=efifb:off amd_iommu=on rd.driver.pre=vfio-pci kvm.ignore_msrs=1 vfio-pci.ids=10de:2757,10de:22bb"
+  --update-kernel=0 \
+  --args="video=efifb:off amd_iommu=on rd.driver.pre=vfio-pci kvm.ignore_msrs=1 vfio-pci.ids=10de:2757,10de:22bb"
 ```
 
 **That's all!** However, I don't want this new boot option to be the default, so I'll set index 1 to be the default. This option had index 0 before.
