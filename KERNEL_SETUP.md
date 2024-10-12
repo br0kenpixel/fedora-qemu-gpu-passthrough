@@ -6,16 +6,16 @@ This part involves adding the necessary kernel parameters for enabling KVM and t
 ### Ways to add kernel parameters
 There are several way's to do this. In most tutorials you'll see people suggesting to edit some kind of a global GRUB configuration. **If you're on Fedora, I highly recommend against doing this.** Fedora has a nice CLI tool ([`grubby`](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/managing_monitoring_and_updating_the_kernel/assembly_making-persistent-changes-to-the-grub-boot-loader_managing-monitoring-and-updating-the-kernel)) for safely managing GRUB entries.
 
-If you have already done a kernel update before, you might already have at least 2 kernels on your Fedora install. You should see these in the GRUB bootloader when booting. You can apply the needed kernel argument for only of them, and if something goes wrong, you can just select another one, and fix your mistakes.
+If you have already done a kernel update before, you might already have at least 2 kernels on your Fedora install. You should see these in the GRUB bootloader when booting. You can apply the needed kernel arguments for only one of them, and if something goes wrong, you can just select another one, and fix any issues.
 
-I'll show you how to duplicate the latest kernel option in GRUB, and give it the needed kernel arguments. This way, you can choose between a normal boot (with a functioning dGPU) and another one with dGPU passthrough configured (so the dGPU will be unusable for anything other that VMs).
+I'll show you how to duplicate the latest kernel option in GRUB, and give it the needed kernel arguments. This way, you can choose between a normal boot (with a functioning dGPU) and another one with dGPU passthrough configured (so the dGPU will be unusable for anything other than VMs).
 
 ### Creating a duplicate boot option
-First off, you need to know what boot options your have first. You can do that by running this command:
+First off, you need to know what boot options your have. You can do that by running this command:
 ```sh
 sudo grubby --info=ALL
 ```
-> **Note:** `ALL` *must be uppercase*! This is case-sensitive.
+> **Note:** `ALL` *must be uppercase*! This is case-sensitive. `sudo` is required!
 
 Example output:
 ```
@@ -56,10 +56,15 @@ To duplicate the latest kernel option, run the following command. You can name t
 sudo grubby \
   --grub2 \
   --add-kernel=/boot/vmlinuz-6.10.12-200.fc40.x86_64 \
-  --title="Fedora Linux (6.10.12-200.fc40.x86_64) 40 (KDE Plasma) [KVM GPU Passthrough]" \
   --initrd=/boot/initramfs-6.10.12-200.fc40.x86_64.img \
-  --copy-default
+  --copy-default \
+  --title="Fedora Linux (6.10.12-200.fc40.x86_64) 40 (KDE Plasma) [KVM GPU Passthrough]"
 ```
+> Kernel and initramfs images are located in `/boot`. **Make sure to match the kernel version to the initramfs version!**
+> You can also list all images with the following command:
+> ```
+> ls /boot/vmlinuz-* /boot/initramfs-*
+> ```
 
 Once this is done, this new option should have index 0 and will be set as the default boot option. Now we'll add the necessary kernel arguments.
 
