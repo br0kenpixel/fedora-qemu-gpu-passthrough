@@ -32,14 +32,13 @@ Group 14:       [10de:2757] [R] 01:00.0  VGA compatible controller    
 The first device (`10de:2757`) is the actual GPU, while the second one (`10de:22bb`) is it's sound card. The hexadecimal numbers inside the square brackets (`[`/`]`) indicate the PCIe ID of the device. You'll need these for later.
 
 #### Script alternative
-You can also just use `lspci -vv` instead of the script. But the output is extremely verbose.
+You can also just use `lspci -vvnn` instead of the script. But the output is extremely verbose.
 
 Example output:
 ```
 ...
-01:00.0 VGA compatible controller: NVIDIA Corporation GN21-X11 [GeForce RTX 4090 Laptop GPU] (rev a1) (prog-if  
-00 [VGA controller])  
-       Subsystem: Lenovo Device 3c74  
+01:00.0 VGA compatible controller [0300]: NVIDIA Corporation GN21-X11 [GeForce RTX 4090 Laptop GPU] [10de:2757] (rev a1) (prog-if 00 [VGA controller])  
+       Subsystem: Lenovo Device [17aa:3c74]  
        Physical Slot: 0  
        Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+  
        Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-  
@@ -55,7 +54,7 @@ Example output:
        Kernel driver in use: nvidia  
        Kernel modules: nouveau, nvidia_drm, nvidia  
   
-01:00.1 Audio device: NVIDIA Corporation Device 22bb (rev a1)  
+01:00.1 Audio device [0403]: NVIDIA Corporation Device [10de:22bb] (rev a1)
        Physical Slot: 0  
        Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-  
        Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-  
@@ -70,6 +69,14 @@ Example output:
 ```
 
 In this case, you want to look for `IOMMU group`. You can ignore the `<access denied>` parts, they're irrelevant.
+
+IDs are on the first line:
+```
+01:00.0 VGA compatible controller [0300]: NVIDIA Corporation GN21-X11 [GeForce RTX 4090 Laptop GPU] [10de:2757]
+                                                                                                     ^^^^^^^^^
+01:00.1 Audio device [0403]: NVIDIA Corporation Device [10de:22bb] (rev a1)
+                                                        ^^^^^^^^^
+```
 
 You can also easily filter and count the amount of devices in an IOMMU group. Here's an example command for IOMMU group 14. You can customize this according to your case.
 
