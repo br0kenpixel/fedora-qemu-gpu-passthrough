@@ -62,7 +62,7 @@ sudo grubby \
 ```
 > Kernel and initramfs images are located in `/boot`. **Make sure to match the kernel version to the initramfs version!**
 > You can also list all images with the following command:
-> ```
+> ```sh
 > ls /boot/vmlinuz-* /boot/initramfs-*
 > ```
 
