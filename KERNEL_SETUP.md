@@ -61,10 +61,11 @@ sudo grubby \
   --title="Fedora Linux (6.10.12-200.fc40.x86_64) 40 (KDE Plasma) [KVM GPU Passthrough]"
 ```
 > Kernel and initramfs images are located in `/boot`. **Make sure to match the kernel version to the initramfs version!**
-> You can also list all images with the following command:
+> You can also list all installed images with the following command:
 > ```sh
 > ls /boot/vmlinuz-* /boot/initramfs-*
 > ```
+> **Ignore `rescue` images! Do not use them!**
 
 Once this is done, this new option should have index 0 and will be set as the default boot option. Now we'll add the necessary kernel arguments.
 
