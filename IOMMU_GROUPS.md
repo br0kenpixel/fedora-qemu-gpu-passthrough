@@ -76,3 +76,5 @@ To use ACS, you must use a special Linux kernel that has it enabled. The simples
 
 ##### ⚠️ {WARNING} Installing Nobara alongside another distro
 Nobara will likely overwrite your EFI partition, making it impossible to boot into another Linux install. You should install it onto a different SSD, or at least back up your current one with something like [Clonezilla](https://clonezilla.org/).
+
+#### Done, go back to the [README](README.md)!
