@@ -88,7 +88,7 @@ We'll add the following arguments:
 - `rd.driver.pre=vfio-pci`
 	- Forcibly load the `vfio-pci` driver.
 - `kvm.ignore_msrs=1`
-	- Makes VMs ignore errors when they try to access hardware registers that aren’t actually defined for that processor.
+	- Makes VMs ignore errors when they try to access hardware registers that aren’t actually defined for your processor.
 - `vfio-pci.ids=XXXX:XXXX,YYYY:YYYY`
 	- Tells the `vfio-pci` driver to use the specified PCIe devices.
 	- **Make sure to replace the IDs with your GPU's ID. One ID should be your dGPU's ID and the other one should be it's audio controller.**
