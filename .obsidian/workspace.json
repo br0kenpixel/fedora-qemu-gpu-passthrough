@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "WINDOWS_SETUP.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WINDOWS_SETUP.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bdfa9b54bc90b55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "KERNEL_SETUP.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "KERNEL_SETUP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "KERNEL_SETUP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "KERNEL_SETUP.md"
               }
             }
           },
@@ -179,11 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e00f3ed5f2e14de5",
+  "active": "5bdfa9b54bc90b55",
   "lastOpenFiles": [
-    "WINDOWS_SETUP.md",
     "VIRTUALIZATION_SETUP.md",
+    "KERNEL_SETUP.md",
     "README.md",
+    "WINDOWS_SETUP.md",
     "Clonezilla.md"
   ]
 }
