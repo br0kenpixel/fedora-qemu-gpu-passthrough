@@ -51,7 +51,7 @@ id="3fed63c9fc1d4662aeeb2944e8df3554-0-rescue"
 
 You can see that I already have 4 boot options. 3 different kernels and a rescue option. The latest kernel version is `6.10.12`, so I'll work with that.
 
-To duplicate the latest kernel option, run the following command. You can name the option whatever you want, I'll just add a `[KVM GPU Passthrough]` suffix at the end
+To duplicate the latest kernel option, run the following command. You can name the option whatever you want, I'll just add a `[KVM GPU Passthrough]` suffix at the end.
 ```sh
 sudo grubby \
 	--grub2 \

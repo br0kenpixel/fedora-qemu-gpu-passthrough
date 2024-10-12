@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WINDOWS_SETUP.md",
+                "file": "KERNEL_SETUP.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WINDOWS_SETUP.md",
+                "file": "KERNEL_SETUP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WINDOWS_SETUP.md",
+                "file": "KERNEL_SETUP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WINDOWS_SETUP.md"
+                "file": "KERNEL_SETUP.md"
               }
             }
           },
@@ -194,12 +194,12 @@
   },
   "active": "3e5398bdb7b2714e",
   "lastOpenFiles": [
+    "WINDOWS_SETUP.md",
     "README.md",
     "KERNEL_SETUP.md",
     "Images/devices_preview.png",
     "Images/selecting_dgpu.png",
     "Images",
-    "WINDOWS_SETUP.md",
     "VIRTUALIZATION_SETUP.md",
     "Clonezilla.md"
   ]
