@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "KERNEL_SETUP.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KERNEL_SETUP.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,12 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5bdfa9b54bc90b55",
+  "active": "3e5398bdb7b2714e",
   "lastOpenFiles": [
-    "VIRTUALIZATION_SETUP.md",
-    "KERNEL_SETUP.md",
     "README.md",
+    "KERNEL_SETUP.md",
     "WINDOWS_SETUP.md",
+    "VIRTUALIZATION_SETUP.md",
     "Clonezilla.md"
   ]
 }
