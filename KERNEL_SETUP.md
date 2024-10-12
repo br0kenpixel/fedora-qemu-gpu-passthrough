@@ -156,3 +156,11 @@ Firstly, open *Virtual Machine Manager*, and select your desired virtual machine
 6. Click `Add Hardware`, select `PCI Host Device` and select your dGPU.
 7. Repeat the same step for your dGPU's sound card.
 
+![[selecting_dgpu.png]]
+
+After this, you should have both devices attached to your VM.
+![[devices_preview.png]]
+
+You can now start the virtual machine.
+
+**Note that you will likely not see your GPU in Device Manager on Windows.** This is normal. Just install your NVIDIA drivers like you normally would, and it will appear normally.
