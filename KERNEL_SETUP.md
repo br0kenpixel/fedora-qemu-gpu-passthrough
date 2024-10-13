@@ -191,6 +191,6 @@ You can now start the virtual machine.
 
 **Note that you will likely not see your GPU in Device Manager on Windows.** This is normal. Just install your NVIDIA drivers like you normally would, and it will appear normally.
 
-At this point, you're pretty much done. I highly recommend using an external display over HDMI/DisplayPort. The virtual display in Virtmanager will be noticeably laggy, albeit not unsuable. Keep in mind that if you're using a laptop, your HDMI/DP ports must be directly connected to your dGPU, otherwise you can't use an external monitor.
+At this point, you're pretty much done. I highly recommend using an external display over HDMI/DisplayPort. The virtual display in Virtmanager will be noticeably laggy, albeit not unsuable. Keep in mind that if you're using a laptop, your HDMI/DP ports must be directly connected to your dGPU, otherwise you can't use an external monitor. **I also recommend giving the VM an external mouse. It'll be easier to use it that way.** You can passtrough a USB mouse by using the `Add Hardware` wizard. **You don't need to configure any kernel arguments for it.**
 
 If you don't want to use an external monitor, check out my [guide for Looking Glass](LOOKING_GLASS_SETUP.md).

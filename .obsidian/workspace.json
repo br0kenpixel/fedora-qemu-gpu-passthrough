@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOOKING_GLASS_SETUP.md",
+                "file": "KERNEL_SETUP.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LOOKING_GLASS_SETUP.md",
+                "file": "KERNEL_SETUP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LOOKING_GLASS_SETUP.md",
+                "file": "KERNEL_SETUP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LOOKING_GLASS_SETUP.md"
+                "file": "KERNEL_SETUP.md"
               }
             }
           },
@@ -206,11 +206,11 @@
   },
   "active": "db3cfa9eda9b9da3",
   "lastOpenFiles": [
+    "LOOKING_GLASS_SETUP.md",
     "VIRTUALIZATION_SETUP.md",
     "WINDOWS_SETUP.md",
     "KERNEL_SETUP.md",
     "NVIDIA_DRIVERS.md",
-    "LOOKING_GLASS_SETUP.md",
     "README.md",
     "Images/windows_install_drivers_list.png",
     "Images/windows_install_drivers_list.png",
