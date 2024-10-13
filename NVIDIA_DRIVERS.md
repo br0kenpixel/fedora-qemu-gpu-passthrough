@@ -23,7 +23,7 @@ sudo dnf install gcc kernel-headers kernel-devel akmod-nvidia xorg-x11-drv-nvidi
 **Now wait at least 10 minutes until the modules load up! Do not continue without waiting!**
 
 #### Compile the driver
-Run the following two commands to make sure that the driver is compiled and ready for all installed kernel versions:
+Run the following two commands to *rebuild the kernel module (driver) for all installed kernels* and *regenerate initramfs images*.
 ```sh
 sudo akmods --force
 sudo dracut --force
