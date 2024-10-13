@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WINDOWS_SETUP.md",
+                "file": "KERNEL_SETUP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WINDOWS_SETUP.md",
+                "file": "KERNEL_SETUP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WINDOWS_SETUP.md",
+                "file": "KERNEL_SETUP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WINDOWS_SETUP.md"
+                "file": "KERNEL_SETUP.md"
               }
             }
           },
@@ -157,15 +157,15 @@
   },
   "active": "82812d131c66d230",
   "lastOpenFiles": [
-    "README.md",
+    "NVIDIA_DRIVERS.md",
     "VIRTUALIZATION_SETUP.md",
+    "KERNEL_SETUP.md",
     "WINDOWS_SETUP.md",
+    "README.md",
     "Images/windows_install_drivers_list.png",
     "Images/windows_install_drivers_list.png",
     "Images/windows_install_no_drives.png",
-    "KERNEL_SETUP.md",
     "Images/grub_preview.jpg",
-    "NVIDIA_DRIVERS.md",
     "IOMMU_GROUPS.md",
     "Images/devices_preview.png",
     "Images/selecting_dgpu.png",

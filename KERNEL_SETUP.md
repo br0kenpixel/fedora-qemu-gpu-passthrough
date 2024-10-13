@@ -113,6 +113,23 @@ sudo grubby \
 sudo grubby --set-default-index=1
 ```
 
+#### Editing the dracut config
+Open up `/etc/dracut.conf.d/local.conf` with your favorite editor. This file will likely not exist, but that's fine.
+```sh
+sudo nano /etc/dracut.conf.d/local.conf
+```
+
+Add the following to the file:
+```
+add_drivers+=" vfio vfio_iommu_type1 vfio_pci "
+```
+> **Keep the spaces at the begging and end of the string!**
+
+Save the file and exit the editor. Then run `dracut`:
+```sh
+sudo dracut -f --kver $(uname -r)
+```
+
 Now, when your reboot, you should see the new option in the GRUB bootloader. **Please boot using this option before continuing!**
 
 ![GRUB Preview](Images/grub_preview.jpg)
@@ -122,6 +139,7 @@ Run the following command:
 ```sh
 lspci -vvv -s 01:00.0
 ```
+> The ID `01:00.0` might be different on your machine.
 
 You should have an output like this:
 ```
