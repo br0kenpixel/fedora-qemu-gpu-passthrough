@@ -4,8 +4,7 @@ If you already have a Windows VM, please check the [Setting up for passthrough](
 You'll need the following things:
 1. A Windows installation ISO (get one from [here](https://www.microsoft.com/en-us/software-download/windows11)).
 2. VirtIO drivers ISO (get it from [here](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win.iso)) - more info [here](https://github.com/virtio-win/virtio-win-pkg-scripts/blob/master/README.md).
-
-
+---
 1. Open up *Virtual Machine Manager*, and authenticate with your user account if asked.
 2. Click on `File`>`New Virtual Machine`.
 3. Choose `Local install media` and click `Forward`.
