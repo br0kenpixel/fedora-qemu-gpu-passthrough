@@ -115,6 +115,8 @@ sudo grubby --set-default-index=1
 
 Now, when your reboot, you should see the new option in the GRUB bootloader. **Please boot using this option before continuing!**
 
+![GRUB Preview](Images/grub_preview.jpg)
+
 ### Verifying the `vfio-pci` driver
 Run the following command:
 ```sh
