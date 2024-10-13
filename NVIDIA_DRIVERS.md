@@ -1,6 +1,8 @@
 # Installing NVIDIA Drivers
 > This guide is based on [How to Set Nvidia as Primary GPU on Optimus-based Laptops](https://docs.fedoraproject.org/en-US/quick-docs/set-nvidia-as-primary-gpu-on-optimus-based-laptops/) by Fedora Project.
 
+> If you're using Nobara, please use the built-in GUI installer.
+
 Fedora currently has a new and old guide to do this. However I find the older one better, so we'll follow that. Also note that this guide is for KDE Plasma, but on GNOME, the process is pretty much the same. **This guide does not involve setting the dGPU as primary GPU, as mentioned in the guide linked above!** We just want to install a driver, nothing else.
 #### Enable the NVIDIA driver repo
 1. Open Konsole/Terminal.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LOOKING_GLASS_SETUP.md",
+                "file": "NVIDIA_DRIVERS.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LOOKING_GLASS_SETUP.md",
+                "file": "NVIDIA_DRIVERS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LOOKING_GLASS_SETUP.md",
+                "file": "NVIDIA_DRIVERS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LOOKING_GLASS_SETUP.md"
+                "file": "NVIDIA_DRIVERS.md"
               }
             }
           },
@@ -205,8 +205,8 @@
   },
   "active": "14d86c9a411918ba",
   "lastOpenFiles": [
-    "KERNEL_SETUP.md",
     "LOOKING_GLASS_SETUP.md",
+    "KERNEL_SETUP.md",
     "README.md",
     "WINDOWS_SETUP.md",
     "VIRTUALIZATION_SETUP.md",
