@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KERNEL_SETUP.md",
+                "file": "WINDOWS_SETUP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KERNEL_SETUP.md",
+                "file": "WINDOWS_SETUP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KERNEL_SETUP.md",
+                "file": "WINDOWS_SETUP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KERNEL_SETUP.md"
+                "file": "WINDOWS_SETUP.md"
               }
             }
           },
@@ -157,9 +157,10 @@
   },
   "active": "82812d131c66d230",
   "lastOpenFiles": [
+    "Images/windows_install_no_drives.png",
+    "KERNEL_SETUP.md",
     "Images/grub_preview.jpg",
     "NVIDIA_DRIVERS.md",
-    "KERNEL_SETUP.md",
     "IOMMU_GROUPS.md",
     "README.md",
     "VIRTUALIZATION_SETUP.md",
