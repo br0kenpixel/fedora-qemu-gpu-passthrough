@@ -52,7 +52,7 @@ You'll see that there are no drives on this list. This is because Windows does n
 
 Click on `Load driver` and click `OK`. **Don't click `Browse`, Windows will find the drivers automatically.**
 ![Windows install - drivers list](Images/windows_install_drivers_list.png)
-Since I'm working with Windows 10, I'll select the `w10` version. Click `Next` after selecting your driver.
+> Since I'm working with Windows 10, I'll select the `w10` version. Click `Next` after selecting your driver.
 
 You should now see your virtual drive show up. Continue will the installation as you normally would.
 #### Installing the VirtIO drivers on Windows
