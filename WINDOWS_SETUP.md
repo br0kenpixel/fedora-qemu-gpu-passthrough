@@ -14,7 +14,7 @@ You'll need the following things:
 7. If asked to fix permissions, choose *yes*. 
 8. One the file picker closes, make sure you have `Microsoft Windows 10`/`11` autoselected under `Choose the operating system you are installing`. **If not, make sure you have selected the correct ISO.** If you're sure, uncheck `Automatically detect from the installation media / source` and select the option manually.
 9. Click `Forward`.
-10. You can now select how much RAM and CPU resources you want to allocate for the VM. **Please ignore this part of the setup, as they will not set the CPU topology correctly. We'll change them later.** You can leave these values alone, just click `Forward`.
+10. You can now select how much RAM and CPU resources you want to allocate for the VM. **Please ignore this part of the setup, as it will not set the CPU topology correctly. We'll change them later.** You can leave these values alone, just click `Forward`.
 11. Select the size of the virtual drive according to your needs, and click `Forward`.
 12. Check `Customize configuration before install` and click `Finish`.
 13. Go to the `CPU` settings, and make sure `Copy host CPU configuration (host-passthrough)` is checked.

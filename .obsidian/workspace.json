@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "WINDOWS_SETUP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "WINDOWS_SETUP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "WINDOWS_SETUP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "WINDOWS_SETUP.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "82812d131c66d230",
   "lastOpenFiles": [
+    "README.md",
     "VIRTUALIZATION_SETUP.md",
     "WINDOWS_SETUP.md",
     "Images/windows_install_drivers_list.png",
@@ -166,7 +167,6 @@
     "Images/grub_preview.jpg",
     "NVIDIA_DRIVERS.md",
     "IOMMU_GROUPS.md",
-    "README.md",
     "Images/devices_preview.png",
     "Images/selecting_dgpu.png",
     "Images",
