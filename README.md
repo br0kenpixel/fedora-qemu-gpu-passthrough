@@ -1,7 +1,7 @@
 # Fedora QEMU GPU passthrough Guide
 This guide will help you set up GPU passthrough for a QEMU/KVM virtual machine on Fedora.
 
-This guide has been tested with a **Lenovo Legion Pro 7 Gen 8** (*16ARX8H*) laptop running Fedora 40 w/ KDE.
+This guide has been tested with a [**Lenovo Legion Pro 7 Gen 8** (*16ARX8H*)](https://psref.lenovo.com/Product/Legion/Legion_Pro_7_16ARX8H) laptop running Fedora 40 w/ KDE.
 
 🖥️ Device specs:
 - AMD Ryzen 9 7945HX
