@@ -14,8 +14,8 @@ This guide is broken up into 3 parts:
 
 ### Requirements
 In order to make this work, there are a few requirements:
-1. Your PC/laptop must have **at least 2 GPUs**.
-2. Your PC/laptop should have **at least 4 cores**.
+1. You must have **at least 2 GPUs**.
+2. Your CPU should have **at least 4 cores**.
 3. Your hardware configuration must be such that your dGPU is in it's own IOMMU group.
 
 ### Before starting
