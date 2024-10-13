@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "82812d131c66d230",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LOOKING_GLASS_SETUP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "14d86c9a411918ba",
             "type": "leaf",
             "state": {
@@ -215,11 +203,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "82812d131c66d230",
+  "active": "14d86c9a411918ba",
   "lastOpenFiles": [
     "KERNEL_SETUP.md",
-    "README.md",
     "LOOKING_GLASS_SETUP.md",
+    "README.md",
     "WINDOWS_SETUP.md",
     "VIRTUALIZATION_SETUP.md",
     "NVIDIA_DRIVERS.md",
