@@ -26,7 +26,7 @@ You'll need the following things:
 19. Go to `SATA Disk 1` and change the device bus from `SATA` to `VirtIO` This is a much faster virtual bus. Click `Apply` afterwards.
 20. Open the network controller settings (named `NIC :XX:XX:XX` - this is random). Change `Device model` to `virtio`. Click `Apply` afterwards.
 21. *(Optional) Enable basic 3D acceleration (temporarily - until we set up GPU passthrough, this will make the installation experience slightly smoother).*
-	1. Go to `Display Splice` and check `OpenGL`. Select `Auto` from the list of GPUs. **Do not select your dGPU!**
+	1. Go to `Display Spice` and check `OpenGL`. Select `Auto` from the list of GPUs. **Do not select your dGPU!**
 	2. Set `Listen type` to `None`.
 	3. Click `Apply`.
 	4. Go to `Video QXL` and change the model to `Virtio`. Check `3D acceleration`. Make sure it's a ☑️ and not `...`. Click `Apply`.
