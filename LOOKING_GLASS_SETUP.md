@@ -2,6 +2,7 @@
 > Homepage: https://looking-glass.io/
 
 > ℹ️ If you plan to use your VM exclusively with an external monitor, you don't need any of this.
+
 > ℹ️ This guide is only for those who don't have or can't use an external monitor.
 
 Looking Glass allows you to connect to your VM's display with minimal latency and lag. It works by creating a shared memory space between the guest (VM) and host. The video stream does not go trough a network socket (like with RDP/VNC/etc.), but the client can just simply read this shared memory, allowing almost instant access to the video stream without any compression or image processing.
