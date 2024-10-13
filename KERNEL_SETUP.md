@@ -6,7 +6,7 @@ This part involves adding the necessary kernel parameters for enabling KVM and t
 ### Ways to add kernel parameters
 There are several ways to do this. In most tutorials you'll see people suggesting to edit some kind of a global GRUB configuration. **If you're on Fedora, I highly recommend against doing this.** Fedora has a nice CLI tool ([`grubby`](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/managing_monitoring_and_updating_the_kernel/assembly_making-persistent-changes-to-the-grub-boot-loader_managing-monitoring-and-updating-the-kernel)) for safely managing GRUB entries.
 
-If you have already done a kernel update before, you might already have at least 2 kernels on your Fedora install. You should see these in the GRUB bootloader when booting. You can apply the needed kernel arguments for only one of them, and if something goes wrong, you can just select another one, and fix any issues.
+If you have done a kernel update before, you might already have at least 2 kernels on your Fedora install. You should see these in the GRUB bootloader when booting. You can apply the needed kernel arguments for only one of them, and if something goes wrong, you can just select another one, and fix any issues.
 
 I'll show you how to duplicate the latest kernel option in GRUB, and give it the needed kernel arguments. This way, you can choose between a normal boot (with a functioning dGPU) and another one with dGPU passthrough configured (so the dGPU will be unusable for anything other than VMs).
 
