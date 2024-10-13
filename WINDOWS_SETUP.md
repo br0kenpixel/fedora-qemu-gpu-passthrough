@@ -1,4 +1,6 @@
 # Creating a Windows 10 VM
+If you already have a Windows VM, please check the [Setting up for passthrough](#setting-up-for-passthrough) section.
+
 You'll need the following things:
 1. A Windows installation ISO (get one from [here](https://www.microsoft.com/en-us/software-download/windows11)).
 2. VirtIO drivers ISO (get it from [here](https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/virtio-win.iso)) - more info [here](https://github.com/virtio-win/virtio-win-pkg-scripts/blob/master/README.md).
@@ -54,6 +56,14 @@ Since I'm working with Windows 10, I'll select the `w10` version. Click `Next` a
 
 You should now see your virtual drive show up. Continue will the installation as you normally would.
 #### Installing the VirtIO drivers on Windows
-After you have successfully installed Windows and you're on the desktop, open up File Explorer and open the CD drive with the VirtIO drivers. 
+After you have successfully installed Windows and you're on the desktop, open up File Explorer and open the CD drive with the VirtIO drivers. On the bottom of the file list, you should see a `virtio-win-guest-tools` executable. Run it and follow the installer's instructions. **Please do not run the `virtio-win-gt-x64`/`x86` MSI installers.**
+
+Once that's done, reboot the VM.
+#### Cleaning up
+After you shut down the VM, you can remove the SATA drives.
+#### Setting up for passthrough
+1. You should turn off the basic 3D acceleration we set up before.
+	1. Go to `Video` settings and change `Model` to `QXL`.
+	2. Go to `Display Spice` and change `Listen type` to `Address` and uncheck `OpenGL`.
 
 #### Done, continue with the [next part](KERNEL_SETUP.md)!
