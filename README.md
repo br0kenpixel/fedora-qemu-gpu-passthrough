@@ -7,10 +7,11 @@ This guide has been tested with a [**Lenovo Legion Pro 7 Gen 8** (*16ARX8H*)](ht
 - AMD Ryzen 9 7945HX
 - NVIDIA GeForce RTX4090 Mobile
 
-This guide is broken up into 3 parts:
-- Installing QEMU and Virtual Machine Manager
-- Creating a Windows 10 VM
-- Setting up your kernel for GPU passthrough
+This guide is broken up into 4 parts:
+- [Installing QEMU and Virtual Machine Manager](VIRTUALIZATION_SETUP.md)
+- [Creating a Windows 10 VM](WINDOWS_SETUP.md)
+- [Setting up your kernel for GPU passthrough](KERNEL_SETUP.md)
+- *(Optional)* [Setting up Looking Glass](LOOKING_GLASS_SETUP.md)
 
 ### Requirements
 In order to make this work, there are a few requirements:
