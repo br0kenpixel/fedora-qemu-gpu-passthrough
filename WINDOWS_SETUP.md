@@ -54,7 +54,7 @@ Click on `Load driver` and click `OK`. **Don't click `Browse`, Windows will find
 ![Windows install - drivers list](Images/windows_install_drivers_list.png)
 > Since I'm working with Windows 10, I'll select the `w10` version. Click `Next` after selecting your driver.
 
-You should now see your virtual drive show up. Continue will the installation as you normally would.
+You should now see your virtual drive show up. Continue with the installation as you normally would.
 #### Installing the VirtIO drivers on Windows
 After you have successfully installed Windows and you're on the desktop, open up File Explorer and open the CD drive with the VirtIO drivers. On the bottom of the file list, you should see a `virtio-win-guest-tools` executable. Run it and follow the installer's instructions. **Please do not run the `virtio-win-gt-x64`/`x86` MSI installers.**
 
