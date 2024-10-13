@@ -30,6 +30,6 @@ sudo dracut --force
 ```
 
 #### Note
-If you followed the guide linked above, **DO NOT perform Step #8 and later!** This guide is for X11, not Wayland. These steps are unnecessary anyway.
+If you followed the guide linked above, **DO NOT perform Step #8 and later!** That guide is for X11, not Wayland. These steps are unnecessary anyway.
 
 #### Done, go back to the [README](README.md)!

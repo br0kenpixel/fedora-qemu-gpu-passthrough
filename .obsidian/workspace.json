@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9935444873e31156",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IOMMU_GROUPS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "82812d131c66d230",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IOMMU_GROUPS.md",
+                "file": "KERNEL_SETUP.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOMMU_GROUPS.md",
+                "file": "KERNEL_SETUP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IOMMU_GROUPS.md",
+                "file": "KERNEL_SETUP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOMMU_GROUPS.md"
+                "file": "KERNEL_SETUP.md"
               }
             }
           },
@@ -167,13 +155,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9935444873e31156",
+  "active": "82812d131c66d230",
   "lastOpenFiles": [
-    "README.md",
-    "NVIDIA_DRIVERS.md",
-    "VIRTUALIZATION_SETUP.md",
-    "KERNEL_SETUP.md",
     "IOMMU_GROUPS.md",
+    "NVIDIA_DRIVERS.md",
+    "KERNEL_SETUP.md",
+    "README.md",
+    "VIRTUALIZATION_SETUP.md",
     "WINDOWS_SETUP.md",
     "Images/devices_preview.png",
     "Images/selecting_dgpu.png",
