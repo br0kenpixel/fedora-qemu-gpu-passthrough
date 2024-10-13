@@ -46,5 +46,13 @@ You'll need the following things:
 Your VM will now start booting into the Windows installer. To scale up the display go to `View`>`Scale Display` and choose `Always`. You can now follow the installer's instructions until you get to `Where do you want to install Windows?`.
 
 You'll see that there are no drives on this list. This is because Windows does not have VirtIO drivers by default.
+![Windows Installation missing drives](Images/windows_install_no_drives.png).
+
+Click on `Load driver` and click `OK`. **Don't click `Browse`, Windows will find the drivers automatically.**
+![Windows install - drivers list](Images/windows_install_drivers_list.png)
+Since I'm working with Windows 10, I'll select the `w10` version. Click `Next` after selecting your driver.
+
+You should now see your virtual drive show up. Continue will the installation as you normally would.
+
 
 #### Done, continue with the [next part](KERNEL_SETUP.md)!
